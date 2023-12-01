@@ -1,0 +1,24 @@
+1a - git branch branca00 -->  Crea una branca de nom branca00
+1b - git checkout branca00 --> Accedeix a a la branca00
+1c - git status -->  Comprova l'estat del projecte i a quina branca et trobes
+
+5 - git checkout main --> Torna a la branca main del projecte
+  - git status --> Comprova l'estat del projecte
+  - git log main --> Mostra l'historial de la branca main
+
+6 - Pots veure l'última línia afegida? NO. Per què? la modificació es va fer a la branca00 i ara estem en main.
+
+7 - git checkout branca00 --> Torna a la branca branca00. 
+  - Pots veure l'última línia afegida? SÍ. Per què? al tornar a la branca00 podem veure les modificacions fetes anteriorment.
+
+10b - git merge branca00 --> Fusiona (merge) la branca branca00 amb la branca main
+
+12a - git push origin master --> Fes un push del dipòsit local al dipòsit remot
+12c - Comprova que només s'ha actualitzat la branca main únicament. Per què? el push que hem fet ha sigut únicament de la branca main.
+
+14a - git push origin branca01 --> Un push de branca01 del dipòsit local al dipòsit remot
+14c - A quants commits de distància (commit ahead) està de la branca main? La branca está a 1 commit per devant que main
+
+
+
+
